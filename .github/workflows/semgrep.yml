@@ -47,7 +47,7 @@ jobs:
       prod-scan: 'true'
       # (Optional) Enter any option command flags for debugging the scan or obtaining additional details
       # Example: '--verbose --max-target-bytes=500000'
-      semgrep-flags: ''
+      semgrep-flags: '--verbose --max-target-bytes=500000'
       # (Optional) Enter the max number of high serverity findings to tolerate before failing a PR
       max-high-severity: ''
       # (Optional) Enter the max number of medium severity findings to tolerate before failing a PR
